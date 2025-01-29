@@ -9,8 +9,8 @@ android {
 
     defaultConfig {
         applicationId = "com.example.bizagent"
-        minSdk = 30
-        targetSdk = 34
+        minSdk =33
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 
@@ -67,4 +67,6 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    implementation("com.squareup.okhttp3:okhttp:4.9.0")
+
 }
